@@ -1,0 +1,355 @@
+body {
+  background-color: #8ff5e4;
+}
+
+.card-1 {
+  height: 520px;
+  width: 100%;
+  background-color:#8ff5e4;
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text1 h1 {
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgb(204, 7, 122);
+}
+
+h6{
+    color:#074f57
+}
+
+.text2 {
+  text-align: center;
+  color: #1422e9;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form-control {
+  height: 50px;
+  width: 400px;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  position: relative;
+}
+
+.btn1 {
+  align-items: center;
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color:#074f57 ;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field button {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* ------------------------------------------------------------- */
+@media only screen and (max-width: 720px) {
+  #meal-db {
+    position: relative;
+    width: 250px;
+    height: 50px;
+  }
+  .input-field {
+    position: relative;
+    bottom: 1.3cm;
+  }
+
+  .input-field button {
+    position: relative;
+    top: 3px;
+    left: 2.5cm;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .btn1 {
+    align-items: center;
+    position: relative;
+    bottom: 3px;
+    height: 44px;
+    width: 44px;
+    background-color: #3252d1;
+  }
+}
+/* ------------------------------------------------------------- */
+.left-card {
+  height: 18cm;
+  
+  background-color: rgb(255, 254, 252);
+  margin-top: 50px;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+
+.right-card {
+  padding: 25px;
+  position: relative;
+}
+
+.card-img-top {
+  width: 450px;
+  height: 330px;
+  padding: 25px;
+  border: 1px solid lightslategray;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.details-card {
+  position: relative;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.img-card {
+  position: absolute;
+  left: 310px;
+  bottom: 35px;
+  box-shadow: rgba(255, 254, 254, 0.25) 0px 0.0625em 0.0625em,
+    rgba(255, 255, 255, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+
+.badge-dark {
+  background-color: rgb(74, 69, 69);
+  text-align: start;
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.badge-info {
+  padding: 4px;
+  font-size: small;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.mealname {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.ingridient {
+  text-align: center;
+  background-color: lightgray;
+  padding: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li {
+  text-align: center;
+  font-family: cursive;
+  font-size: 15px;
+  background-color: rgb(174, 246, 160);
+}
+
+ul {
+  margin: 0px;
+}
+
+.description {
+  background-color: lightgray;
+  padding: 5px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card-text {
+  font-size: small;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.youtube-logo {
+  width: 180px;
+  height: 130px;
+}
+
+.youtube {
+  position: absolute;
+  left: 600px;
+  top: 50px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+/* ------------------------------------------------------------- */
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .details-card {
+    position: relative;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    padding-bottom: 1cm;
+    padding-right: 12cm;
+  }
+
+  .left-card {
+    height: 22cm;
+    margin-top: 50px;
+  }
+
+  .right-card {
+    padding: 25px;
+    position: relative;
+    right: 8.5cm;
+    width: 400px;
+  }
+
+  .card-img-top {
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+    border: 1px solid lightslategray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .img-card {
+    position: relative;
+    top: 1cm;
+    right: 15cm;
+    box-shadow: rgb(6, 6, 6) 0px 0.0625em 0.0625em,
+      rgb(0, 0, 0) 0px 0.125em 0.5em, rgb(0, 0, 0) 0px 0px 0px 1px;
+    width: 15cm;
+  }
+
+  .badge-info {
+    padding: 4px;
+    font-size: small;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  #title {
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    right: 9cm;
+  }
+
+  .youtube-logo {
+    width: 70px;
+    height: 60px;
+  }
+
+  .youtube {
+    position: absolute;
+    left: 170px;
+    top: 7px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.646) 0px 5px 15px;
+    padding: 10px;
+  }
+  .link {
+    font-size: 15px;
+  }
+}
+
+/* ------------------------------------------------------------- */
+.glow-button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-button:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-button:active {
+  color: #000;
+}
+
+.glow-button:active:after {
+  background: transparent;
+}
+
+.glow-button:hover:before {
+  opacity: 1;
+}
